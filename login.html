@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/babicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--NAVBAR-->
+     <header>
+        <nav>
+            <a href="search.html">Search</a>
+            <a href="browse.html">Browse</a>
+            <a href="index.html">Book-A-Book</a>
+            <a href="mybooks.html">My Books</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <br>
+     <!-- The Login Form -->
+        <div class="login-container">
+            <div class="form-card" id="loginCard">
+                <h2>Welcome Back!</h2>
+                <p><i>Log in to continue reading</i></p>
+
+                <form id="loginForm" onsubmit="event.preventDefault();">
+                    
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter username..." autocomplete="off">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="•••••••••" autocomplete="off">
+                    </div>
+
+                    <button type="button" id="loginBtn">Connect</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <br><br>
+
+    <footer>
+        <style>
+            footer {
+                text-align: center;
+                padding: 20px 0;
+                font-family: 'EB Garamond', serif;
+            }
+
+            footer a {
+                color: #000;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1.3rem;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+        <a href="#">Contact</a>   
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+    </footer>
+</body>
+</html>
